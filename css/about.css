@@ -1,0 +1,41 @@
+section#about{
+  background-color: #f5f5f5;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 600px;
+}
+section#about .wrap{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+section#about .wrap h2{   
+  margin: 0 auto;
+  text-align: center;
+  background-color: #edb6cf;
+  width: 300px;
+}
+section#about .wrap p{
+}
+section#about .wrap ul{ 
+  width: 60%;
+  magin: 0 auto;
+}
+section#about .wrap ul li{
+  line-height: 1.6;
+  gap: 20px;
+}
+section#about .wrap ul li:nth-child(1)::before{
+       background-image: url(../img/af.png);
+}
+section#about .wrap div img{
+  
+  width: 30%;
+}

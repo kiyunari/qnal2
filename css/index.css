@@ -1,0 +1,76 @@
+/* 상단영역 */
+header{
+    /* 너비지정   */
+    /* 중앙정렬 */
+   background-color: #efb6cf8f;
+   display: flex;
+   height: 60px;
+   justify-content: space-between;
+   align-items: center;
+ }
+header .wrap{  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ header h1{
+   color:rgb(93, 0, 255);
+ }
+ header h1 a{
+    
+  /*! font-family: 'DM Sans', sans-serif; */
+  text-transform: uppercase;
+  background-image: url(https://images.unsplash.com/photo-1586809764311-090bc6068916?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center bottom;
+  font-family: 'Berkshire Swash', serif;
+  font-size: 150%;
+ }
+ header ul{
+   display: flex;
+   gap: 20px;
+   font-family: 'DM Sans', sans-serif;
+   list-style: none;
+ }
+ header ul li{
+    
+ }
+ header ul li a{
+    
+ }
+  /* 자식선택자 : 바로 아래있는 선택자(태그) */
+header div.wrap>a{
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+ /* 타이틀 영역 */
+ div#title{
+   background-color: rgb(249, 233, 233)4f4;
+   background-image: url(https://images.unsplash.com/photo-1586809764311-090bc6068916?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+   background-size: cover;
+   background-position: center bottom;
+ }
+ div#title div.wrap{ /* 하위선택자 */
+   width: 1440px;
+   margin: 0 auto;
+   height: 800px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+ }
+ div h2{
+ 
+  font-family: 'Berkshire Swash', serif;
+ }
+ div p{
+   
+  color: #e3aac3;
+ }
